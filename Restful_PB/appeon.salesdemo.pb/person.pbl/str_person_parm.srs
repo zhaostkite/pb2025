@@ -1,0 +1,10 @@
+﻿global type str_person_parm from structure
+	string		table
+	long		personid
+	long		addressid
+	long		addresstypeid
+	string		phonenumber
+	long		phonetypeid
+	long		customerid
+end type
+
