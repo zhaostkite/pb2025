@@ -9,14 +9,14 @@ global n_smtpclient n_smtpclient
 
 forward prototypes
 public function integer of_function_1 ()
-public function integer of_function_2 (integer test)
+public function integer of_function_2 ()
 public function integer of_function_3 ()
 end prototypes
 
 public function integer of_function_1 ();Return 1
 end function
 
-public function integer of_function_2 (integer test);Return 2
+public function integer of_function_2 ();Return 2
 end function
 
 public function integer of_function_3 ();Return 3
